@@ -31,6 +31,9 @@
                                 <state key="normal" title="N/A">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="naButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyg-mU-wXE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n51-J5-9ip">
                                 <rect key="frame" x="209.5" y="550" width="181" height="30"/>
@@ -38,6 +41,9 @@
                                 <state key="normal" title="Me Gusta">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="likeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="98y-xY-XnA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
