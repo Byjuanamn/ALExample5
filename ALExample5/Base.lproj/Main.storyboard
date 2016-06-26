@@ -68,13 +68,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="35q-lk-2gM" secondAttribute="trailing" id="bWw-cn-Qff"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lGg-81-goT" secondAttribute="trailing" priority="998" id="e20-I1-mvB"/>
                             <constraint firstItem="35q-lk-2gM" firstAttribute="leading" secondItem="n51-J5-9ip" secondAttribute="trailing" constant="8" symbolic="YES" id="ehP-r7-y4O"/>
+                            <constraint firstItem="88t-KS-lft" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="w4Q-KO-Bk5" secondAttribute="trailing" constant="8" symbolic="YES" id="g5b-0e-zf7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="n51-J5-9ip" secondAttribute="trailing" priority="999" id="jOb-fB-leB"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="bottom" secondItem="lGg-81-goT" secondAttribute="bottom" id="o71-Vu-OHd"/>
                             <constraint firstItem="lGg-81-goT" firstAttribute="width" secondItem="n51-J5-9ip" secondAttribute="width" id="rbQ-y3-mbi"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="baseline" secondItem="lGg-81-goT" secondAttribute="baseline" id="sde-Jn-qQs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="88t-KS-lft" secondAttribute="trailing" constant="8" id="shQ-WQ-D30"/>
                             <constraint firstItem="88t-KS-lft" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="vcs-Rx-AZ2"/>
-                            <constraint firstItem="w4Q-KO-Bk5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xQA-1R-4TF"/>
+                            <constraint firstItem="w4Q-KO-Bk5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" priority="250" id="xQA-1R-4TF"/>
                             <constraint firstAttribute="leadingMargin" secondItem="lGg-81-goT" secondAttribute="leading" id="y7m-3Y-XVd"/>
                         </constraints>
                     </view>
