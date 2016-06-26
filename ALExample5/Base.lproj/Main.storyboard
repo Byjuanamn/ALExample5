@@ -19,25 +19,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGg-81-goT">
-                                <rect key="frame" x="20" y="550" width="192" height="30"/>
+                                <rect key="frame" x="20" y="550" width="181.5" height="30"/>
                                 <color key="backgroundColor" red="0.96934978319999998" green="0.3608334017" blue="0.3789865671" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Message">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35q-lk-2gM">
-                                <rect key="frame" x="388" y="550" width="192" height="30"/>
+                                <rect key="frame" x="398" y="550" width="181.5" height="30"/>
                                 <color key="backgroundColor" red="0.96934978319999998" green="0.3608334017" blue="0.3789865671" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="N/A">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n51-J5-9ip">
-                                <rect key="frame" x="220" y="550" width="160" height="30"/>
+                                <rect key="frame" x="209.5" y="550" width="181" height="30"/>
                                 <color key="backgroundColor" red="0.96934978319999998" green="0.3608334017" blue="0.3789865671" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="jjh-GS-ear"/>
-                                </constraints>
                                 <state key="normal" title="Me Gusta">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -46,20 +43,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lGg-81-goT" secondAttribute="bottom" constant="20" id="4gL-8f-CQV"/>
-                            <constraint firstItem="lGg-81-goT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DqR-1o-qZq"/>
+                            <constraint firstItem="n51-J5-9ip" firstAttribute="width" secondItem="35q-lk-2gM" secondAttribute="width" id="HKW-MN-SvT"/>
+                            <constraint firstItem="35q-lk-2gM" firstAttribute="bottom" secondItem="lGg-81-goT" secondAttribute="bottom" id="HLY-qq-H51"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="leading" secondItem="lGg-81-goT" secondAttribute="trailing" constant="8" symbolic="YES" id="KxA-WA-h39"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="35q-lk-2gM" secondAttribute="bottom" constant="20" id="aBm-Jg-aWO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="35q-lk-2gM" secondAttribute="trailing" id="bWw-cn-Qff"/>
                             <constraint firstItem="35q-lk-2gM" firstAttribute="leading" secondItem="n51-J5-9ip" secondAttribute="trailing" constant="8" symbolic="YES" id="ehP-r7-y4O"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="epT-4B-2EU"/>
+                            <constraint firstItem="n51-J5-9ip" firstAttribute="bottom" secondItem="lGg-81-goT" secondAttribute="bottom" id="o71-Vu-OHd"/>
+                            <constraint firstItem="lGg-81-goT" firstAttribute="width" secondItem="n51-J5-9ip" secondAttribute="width" id="rbQ-y3-mbi"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="baseline" secondItem="lGg-81-goT" secondAttribute="baseline" id="sde-Jn-qQs"/>
                             <constraint firstAttribute="leadingMargin" secondItem="lGg-81-goT" secondAttribute="leading" id="y7m-3Y-XVd"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="DqR-1o-qZq"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
