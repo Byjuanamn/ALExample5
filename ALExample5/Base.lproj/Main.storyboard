@@ -49,6 +49,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lGg-81-goT" secondAttribute="bottom" constant="20" id="4gL-8f-CQV"/>
+                            <constraint firstItem="lGg-81-goT" firstAttribute="width" secondItem="35q-lk-2gM" secondAttribute="width" id="734-lf-NUC"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="width" secondItem="35q-lk-2gM" secondAttribute="width" id="HKW-MN-SvT"/>
                             <constraint firstItem="35q-lk-2gM" firstAttribute="bottom" secondItem="lGg-81-goT" secondAttribute="bottom" id="HLY-qq-H51"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="leading" secondItem="lGg-81-goT" secondAttribute="trailing" constant="8" symbolic="YES" id="KxA-WA-h39"/>
@@ -56,6 +57,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="35q-lk-2gM" secondAttribute="trailing" id="bWw-cn-Qff"/>
                             <constraint firstItem="35q-lk-2gM" firstAttribute="leading" secondItem="n51-J5-9ip" secondAttribute="trailing" constant="8" symbolic="YES" id="ehP-r7-y4O"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="epT-4B-2EU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="n51-J5-9ip" secondAttribute="trailing" priority="999" id="jOb-fB-leB"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="bottom" secondItem="lGg-81-goT" secondAttribute="bottom" id="o71-Vu-OHd"/>
                             <constraint firstItem="lGg-81-goT" firstAttribute="width" secondItem="n51-J5-9ip" secondAttribute="width" id="rbQ-y3-mbi"/>
                             <constraint firstItem="n51-J5-9ip" firstAttribute="baseline" secondItem="lGg-81-goT" secondAttribute="baseline" id="sde-Jn-qQs"/>
